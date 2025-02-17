@@ -10,7 +10,7 @@ var topSectionText = ["Consentement", "Détails", "À propos"];
 var firstSectionText = "Nous utilisons des cookies pour personnaliser le contenu et les publicités, fournir des fonctionnalités de réseaux sociaux et analyser notre trafic. Nous partageons également des informations sur votre utilisation de notre site Web avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent les combiner avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.";
 var thirdSectionText = "Les cookies sont de petits fichiers texte utilisés par les sites Web pour améliorer l'expérience utilisateur. La loi précise que nous pouvons stocker des cookies sur votre appareil s'ils sont strictement nécessaires au fonctionnement de ce site Internet. Pour tous les autres types de cookies, nous avons besoin de votre autorisation. Cela signifie que les cookies classés comme nécessaires sont gérés conformément à l'article 6, paragraphe 1, point f) du RGPD. Tous les autres cookies, tels que ceux des catégories Préférences et Marketing, sont gérés conformément à l'article 6, paragraphe 1, point a) du RGPD. Ce site Web utilise différents types de cookies. Certains cookies sont définis par des services tiers qui apparaissent sur nos pages.";
 
-var bannerButtonsTexts = ["Accepter", "Déclin", "Personnaliser", "Sauvegarder"];
+var bannerButtonsTexts = ["Accepter", "Décliner", "Personnaliser", "Sauvegarder"];
 
 var categoryDescriptionsText = {
 	Necessary: {
@@ -464,7 +464,7 @@ window.addEventListener("load", function() {
 			if (totalCookies === 0) {
 				categoryHTML += `
                     <div class="NoCookieWarning">
-                        <span>No Cookie to display</span>
+                        <span>Aucun cookie à afficher</span>
                     </div>`;
 			} else {
 
